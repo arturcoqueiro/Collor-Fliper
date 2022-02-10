@@ -1,2 +1,2 @@
-# Collor-Fliper
+# Color-Fliper
 Gerador de Cores HEX 100% aleatórias
