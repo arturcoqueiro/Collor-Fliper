@@ -43,9 +43,15 @@ nav{
     justify-content: space-between;
 }
 nav h3{
-    color: hsl(205, 86%, 17%);
+    color: hsl(205, 74%, 27%);
 }
 nav a {
     font-weight: 700;
     letter-spacing: 0.05rem;
+    font-size: 1.2rem;
+    color: hsl(205, 86%, 17%);
+}
+nav a:hover{
+    color: #EB4F57; 
+    text-decoration: underline;
 }
