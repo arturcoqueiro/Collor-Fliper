@@ -35,7 +35,7 @@ h3{
         font-size: 2.5rem;
     }
     h3{
-        font-size: 1.40rem;
+        font-size: 1.30rem;
     }
     h4{
         font-size: 1rem;
@@ -45,6 +45,9 @@ h3{
     }
     h1, h2, h3, h4{
         line-height: 1;
+    }
+    .btn{
+        font-size: 1.2rem;
     }
 }
 
@@ -92,6 +95,27 @@ main{
     color: white;
     padding: 1rem;
     margin-bottom: 2.5rem;
-    border-radius: 0.25rem;
-    
+    border-radius: 0.30rem;
+}
+
+button{
+    font-family: var(--font1);
+    background: transparent;
+    color: #222;
+    letter-spacing: var(--spacing);
+
+    font-weight: 700;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.45rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    text-shadow: white px 1px 1px;
+    border: 2px solid #222;
+}
+button:hover{
+    color: white;
+    background-color: #222;
+    text-shadow: white px 1px 1px;
 }
