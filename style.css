@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-*{
+*,::after,
+::before{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -26,6 +28,26 @@ h2{
 }
 h3{
     font-size: 1.25rem;
+}
+@media screen and (min-width: 800px){
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 1.40rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    body{
+        font-size: 1rem;
+    }
+    h1, h2, h3, h4{
+        line-height: 1;
+    }
 }
 
 nav{
@@ -54,4 +76,22 @@ nav a {
 nav a:hover{
     color: #EB4F57; 
     text-decoration: underline;
+}
+
+main{
+    height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    text-align: center;
+}
+.container h2{
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0.25rem;
+    
 }
