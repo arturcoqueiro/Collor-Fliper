@@ -98,6 +98,9 @@ main{
     border-radius: 0.30rem;
 }
 
+.color{
+    color: #A02EFA;
+}
 button{
     font-family: var(--font1);
     background: transparent;
